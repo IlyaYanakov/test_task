@@ -15,7 +15,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class SubscriptionEntity extends PersistentObject{
 
-    @Column(name = "service_name", nullable = false, unique = false)
+    @Column(name = "service_name", nullable = false)
     private String serviceName;
 
     @ManyToOne

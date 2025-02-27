@@ -1,6 +1,5 @@
 package com.example.users_and_subscriptions.repository;
 
-import com.example.users_and_subscriptions.dto.SubscriptionDTO;
 import com.example.users_and_subscriptions.entity.SubscriptionEntity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

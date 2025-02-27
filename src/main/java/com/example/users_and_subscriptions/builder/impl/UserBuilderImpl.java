@@ -22,15 +22,6 @@ public class UserBuilderImpl implements UserBuilder {
     }
 
     @Override
-    public UserDTO toDto(UserEntity user) {
-        UserDTO userDTO = new UserDTO();
-        userDTO.setId(user.getId());
-        userDTO.setEmail(user.getEmail());
-        userDTO.setName(user.getName());
-        return userDTO;
-    }
-
-    @Override
     public UserDomain toDomain(UserEntity user) {
         UserDomain userDomain = new UserDomain();
         userDomain.setId(user.getId());

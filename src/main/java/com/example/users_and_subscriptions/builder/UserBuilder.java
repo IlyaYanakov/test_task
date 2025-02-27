@@ -6,7 +6,7 @@ import com.example.users_and_subscriptions.entity.UserEntity;
 
 public interface UserBuilder {
     UserEntity toEntity(UserDTO userDTO);
-    UserDTO toDto(UserEntity user);
+
     UserDomain toDomain(UserEntity user);
     UserDTO toDto(UserDomain userDomain);
 
