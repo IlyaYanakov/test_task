@@ -1,0 +1,7 @@
+.git
+.gradle
+build
+out
+target
+node_modules
+docker-compose.yml
